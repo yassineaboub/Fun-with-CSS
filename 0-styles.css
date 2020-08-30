@@ -1,0 +1,38 @@
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 13% 0;
+    min-height: 350px;
+    width: 250px;
+    border: solid silver;
+    border-radius: 15px;
+    background-color: rgb(247, 245, 245);
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+span {
+    display: flex;
+    margin: auto;
+    padding: 125px;
+    background-size: 270%;
+
+}
+.i-html {
+    background-image: url("0-sprite.png");
+    background-position: -4%;
+}
+.i-css {
+    background-image: url("0-sprite.png");
+    background-position: 50%;
+}
+.i-js {
+    background-image: url("0-sprite.png");
+    background-position: 103%;
+}

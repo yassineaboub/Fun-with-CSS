@@ -1,0 +1,25 @@
+a {
+    color: #e72f67;
+    position: relative;
+    text-decoration: none;
+}
+a:active {
+    color: #e72f67;
+} 
+a:visited {
+    color: #e72f67;
+}
+a:before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #e72f67;
+    transition: all 0.3s ease-in-out;
+    left: 0;
+    bottom: 0;
+}
+a:hover:before {
+    width: 100%;
+}
